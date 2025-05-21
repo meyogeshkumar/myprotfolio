@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100vw;
+    height: 70px;
+    background-color:black;
+    border-bottom:2px solid violet ;
+}
+.myprotfolio{
+    color: violet;
+    font-family: "Tagesschrift", system-ui;
+    font-size: 22px;
+    text-shadow: 1px 5px 5px violet;   
+}
+#openmenu{
+    border: 2px solid white;
+    outline: none;
+}
+.fa-bars{
+    font-size: 20px;
+    font-weight: bold;
+    color: violet;
+}
+.mainitem a{
+    color: white;
+    font-family: "Croissant One", serif;
+    font-size: 18px;
+}
+.mainitem a:hover{
+    color: violet;
+    transition: color .5s linear ;
+    text-shadow: 1px 5px 5px violet;
+}
+.mainitem1 a{
+    color: white;
+    font-family: "Croissant One", serif;
+    letter-spacing: 1px;
+    font-size: 18px;    
+}
+.mainitem1 a:hover{
+    color: violet;
+    transition: color .2s linear ;
+    text-shadow: 1px 5px 5px violet;
+}
+#menuname{
+    color: violet;
+    font-family: "Tagesschrift", system-ui;
+    font-size: 22px;
+}
+.btn-close1{
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 3px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#offcanvasMenu{
+    background-color:black;
+}
+.fa-close{
+    font-size: 20px;
+    color: violet;
+} 
+/* intropage */
+.intropage{
+    width: 100vw;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.homecontant{
+    color: white;
+    font-family: "Croissant One", serif;   
+}
+.homecontant span{
+    color: violet;
+    text-shadow: 1px 1px 5px rgb(235, 55, 235);
+}
+.homecontant p{
+    font-size: 14px;
+}
+.image1{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 3px solid rgb(189, 35, 250);
+    box-shadow: 1px 1px 30px violet;
+}
+.homeicon i{
+    color: white;
+    font-size: 30px;
+}
+.homeicon i:hover{
+    color: violet;
+    transition: all .5s linear;
+}
+.resume1{
+    outline: none;
+    color:white;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 20px;
+    overflow-y:hidden;
+}
+.resume1 i{
+    font-size: 14px;
+    color:violet;
+    padding-left: 10px;
+    transform: translateY(-27px);
+}
+.resume1:hover {
+    color: violet;
+    transition: all .75s linear;
+    border: 2px solid violet;
+}
+.resume1:hover i{
+    transform: translateY(0px);
+    color: white;
+    transition: all .5s linear;
+}
+/* about */
+.about{
+    width: 100vw;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abouth2{
+    color: white;
+    font-family: "Croissant One", serif;
+}
+.abouth2 span{
+    color: violet;
+    text-shadow: 1px 1px 10px violet;
+}
+.aboutP{
+    color: white;
+    font-family: "Croissant One", serif;
+}
+/* skills */
+.Skills{
+    width: 100vw;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillh2{
+    font-family: "Croissant One", serif;
+    color: white;
+}
+.skillh2::first-letter{
+    color: violet;
+    text-shadow: 1px 1px 5px violet;
+}
+.titleskill{
+     font-family: "Croissant One", serif;
+    color: white;
+}
+.program {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box
+{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid violet;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 3px violet;
+    margin: 20px;
+    padding: 15px;
+}
+.box label{
+    margin: 5px;
+}
+.inbox{
+    display: flex;
+}
+.nextbox{
+    width: 110px;
+    height: 110px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid violet;
+    margin: 10px;
+    box-shadow: 1px 1px 15px violet;
+    border-radius: 20px;
+}
+.nextbox i{
+    font-size: 50px;
+}
+
+.Project{
+    width: 100vw;
+    min-height: 100vh;
+}
+.projectrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.projectitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    border: 2px solid violet;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px violet;
+}
+.projectitem img{
+    width: 220px;
+    height: 130px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.projectitem h4{
+    color: rgb(241, 180, 241);
+    font-family: "Croissant One", serif;
+    text-shadow: 1px 1px 5px violet;
+}
+.projectitem p{
+    color:white;
+    font-family: "Croissant One", serif;
+    text-align: center;
+    font-size: 14px;
+}
+.projectitem button{
+    padding: 5px 30px;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+.projectitem button a{
+    text-decoration: none;
+    color: white;
+    font-family: "Croissant One", serif;
+}
+.projectitem button:hover a{  
+    color: violet;
+    transition: all .75s linear;
+}
+.projectitem button:hover{
+    border: 2px solid violet;
+    transition: all .75s linear;
+}
+
+
+.Contactus{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactbox{
+    box-shadow: 1px 0px 10px 5px violet;
+    border-radius: 20px;
+
+}
+.contactbox h2{
+    font-family: "Croissant One", serif;
+    color: white;
+}
+.contactbox h2 span{
+    color: violet;
+    margin-left: 5px;
+    text-shadow: 1px 1px 5px violet;
+}
+.contactbox h4{
+    color: white;
+    font-family:"Croissant One", serif;
+}
+.contactbox input{
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+.contactbox textarea{
+    font-weight: 500;
+}
+.contactbox button{
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family:"Croissant One", serif ;
+    outline: none;
+}
+.contactbox button:hover{
+    color: violet;
+    border: 2px solid violet;
+    transition: all .5s linear;
+}

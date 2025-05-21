@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar navbar-lg fixed-top" id="nav1" >
+      <div class="container-fluid" >
+          <span class="myprotfolio  ms-3">My Protfolio</span>
+
+          <button class="navbar-toggler d-lg-none" id="openmenu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="d-none d-lg-block ">
+            <ul class="navbar-nav flex-row gap-3">
+              <li class="nav-item mainitem"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item mainitem"><a class="nav-link" href="#about">About Me</a></li>
+              <li class="nav-item mainitem"><a class="nav-link" href="#Skills">Skills</a></li>
+              <li class="nav-item mainitem"><a class="nav-link" href="#Project">Project</a></li>
+              <li class="nav-item mainitem"><a class="nav-link" href="#contactus">Contactus</a></li>
+              <li></li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+
+    <div class="offcanvas offcanvas-start w-75"  tabindex="-1" id="offcanvasMenu" >
+        <div class="offcanvas-header d-flex justify-content-between">
+          <h5 class="offcanvas-title" id="menuname">My protfolio</h5>
+          <button type="button" class="btn btn-close1" data-bs-dismiss="offcanvas" >
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item mainitem1" data-bs-dismiss="offcanvas"><a class="nav-link" data-bs-target="#offcanvasMenu" href="#home">Home</a></li>
+            <li class="nav-item mainitem1" data-bs-dismiss="offcanvas"><a class="nav-link" data-bs-target="#offcanvasMenu" href="#about">About Me</a></li>
+            <li class="nav-item mainitem1" data-bs-dismiss="offcanvas"><a class="nav-link" data-bs-target="#offcanvasMenu" href="#Skills">Skills</a></li>
+            <li class="nav-item mainitem1" data-bs-dismiss="offcanvas"><a class="nav-link" data-bs-target="#offcanvasMenu" href="#Project">Projects</a></li>
+            <li class="nav-item mainitem1" data-bs-dismiss="offcanvas"><a class="nav-link" data-bs-target="#offcanvasMenu" href="#contactus">Contactus</a></li>
+          </ul>
+        </div>
+    </div>
+
+
+    <div class="intropage" id="home" >  
+        <div class="container mt-5 mb-5  d-flex justify-content-center align-items-center " >
+            <div class="row mt-5 mb-5  d-flex justify-content-center align-items-center ">
+                <div class="col-12 col-sm-6  d-flex justify-content-center align-items-center ">
+                    <div class="homecontant">
+                        <h5 class="h5">Hello, It's Me</h5>
+                        <h2>YOGESH KUMAR <span>M E</span></h2>
+                        <h5>I'm a <span id="type"></span></h5>
+                        <p>Finish my BSc.Computer Science Graduated. Web Designer, Frontend Developer, passionate about creating responsive and user friendly application. </p>
+                    <div class="homeicon  d-flex justify-content-start align-items-center">
+                        <a href="https://github.com/meyogeshkumar" target="_blank"><i class="fab fa-github me-3"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=8946056424&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp me-3"></i></a>
+                        <button class="resume1" onclick="downloadPDF()">Resume<i class="fas fa-download"></i></button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 mt-5 mt-lg-0 d-flex justify-content-center  align-items-center">
+                    <img src="image/Rizwana _ Freepik.jpg" alt="" class="img img-fluid image1" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="about" id="about" >
+        <div class="container  d-flex justify-content-center align-items-center " >
+            <div class="row ">    
+                <div class="col-12  pt-3 pb-3  text-center">
+                    <h2 class="abouth2">About <span>Me</span></h2>
+                </div>
+                <div class="col-12 col-sm-5 pt-4 pb-3 d-none d-lg-flex justify-content-center align-items-center">
+                    <img src="image/Rizwana _ Freepik.jpg" alt="" class="img img-fluid image1">
+                </div>
+                <div class="col-12 col-sm-7 pt-4 pb-3 d-flex justify-content-center align-items-center">
+                    <p class="aboutP">
+                        Hello, my name is Yogesh Kumar M.E. 
+                        I have completed my B.Sc. Computer Science from Sourashtra College (Batch: 2022–2025). 
+                        I have good knowledge in HTML, CSS, and JavaScript and worked through that in real time. I am also actively learning ReactJS.
+                        I am interested in Web Development and Front-End Development and very enthusiastically willing to work in those fields.   
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+    <div class="Skills" id="Skills">
+        <div class="container mt-5 mb-5 justify-content-center d-flex flex-column align-items-center">
+            <div class="row mt-5 mb-5 w-100  ">
+                <div class="col-12 pt-3 pb-3  text-center ">
+                    <h2 class="skillh2">Skills</h2>
+                </div>
+                <div class="col-12 col-sm-6 program">
+                    <h4 class="text-center  pb-3  titleskill">Programming Skills</h4>
+                    <div class="box">
+                        <div class="inbox">
+                        <div class="nextbox"><i class="devicon-cplusplus-plain colored"></i></div>
+                        <div class="nextbox"><i class="devicon-c-plain colored" ></i></div>
+                        </div>
+                        <div class="inbox">
+                        <div class="nextbox"><i class="devicon-java-plain colored"></i></div>
+                        <div class="nextbox"><i class="fab fa-python" style="color: #3776AB;"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6  front">
+                    <h4 class="text-center pb-3 pt-3 pt-lg-0 titleskill">Front End Skills </h4>
+                    <div class="box">
+                        <div class="inbox">
+                        <div class="nextbox">
+                            <i class="fab fa-html5" style="color: blue;"></i>
+                        </div>
+                        <div class="nextbox">
+                            <i class="fab fa-css3-alt" style="color: white;"></i>
+                        </div>
+                        </div>
+                        <div class="inbox">
+                        <div class="nextbox">
+                            <i class="fab fa-js" style="color: yellow;"></i>        
+                        </div>
+                        <div class="nextbox">
+                            <i class="fab fa-react" style="color: aqua;"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+
+
+    <div class="Project d-flex justify-content-center align-items-center" id="Project" >
+      <div class="container mt-5 pb-5 ">
+        <div class="row ">
+          <div class="col-12 pt-3 pb-5 mt-3 text-center ">
+            <h2 class="skillh2">Projects</h2>
+          </div>
+        </div>
+        <div class="row projectrow ">
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="200" data-aos-easing="linear">
+              <img src="image/weather.jpg" alt="">
+              <h4>Weather API</h4>
+              <p>User viwe the current location weather. I get the API and bulid the web Application. Using HTML, CSS, JS.</p>
+              <button><a href="https://meyogeshkumar.github.io/weatherAPI/">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem " data-aos="fade-down" data-aos-delay="300" data-aos-easing="linear">
+              <img src="image/country.jpg" alt="">
+              <h4>Country Giude</h4>
+              <p>User search the Country view of capital,continent,languages. I get the API and bulid the web application. Using HTML, CSS, JS.</p>
+              <button><a href="https://meyogeshkumar.github.io/Country-Guide/" target="_blank">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="400" data-aos-easing="linear">
+              <img src="image/currency.jpg" alt="">
+              <h4>Currency Convert</h4>
+              <p>User enter the current country RS to view another country RS. I get the API and bulid the web application. Using HTML, CSS, JS.  </p>
+              <button><a href="https://meyogeshkumar.github.io/currencyconverter/">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear">
+              <img src="image/hospital.jpg" alt="">
+              <h4>Hospital</h4>
+              <p>Simple Hospital E-com web application with responsive and user register for appointment. And i using the HTML, CSS, JS. </p>
+              <button><a href="https://meyogeshkumar.github.io/hospital-simple-E-com-/" target="_blank">View Project</a></button>
+            </div>
+        </div>
+        <div class=" row projectrow mt-5">
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="200" data-aos-easing="linear">
+              <img src="image/claculater.jpg" alt="">
+              <h4>Hospital</h4>
+              <p>It is Basic claculater web application. Addition, Subraction, Multipliction,Divition and using js function of eval. </p>
+              <button><a href="https://meyogeshkumar.github.io/calculator/">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem " data-aos="fade-down" data-aos-delay="300" data-aos-easing="linear">
+              <img src="image/clock.jpg" alt="">
+              <h4>Clock</h4>
+              <p>It is Digital clock web application i get  data object in java script and using the HTML, CSS, JS .</p>
+              <button><a href="https://meyogeshkumar.github.io/Digital-Clock/">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="400" data-aos-easing="linear">
+              <img src="image/signup.png" alt="">
+              <h4>Signup</h4>
+              <p>It is Signup validation from web application and using the HTML, CSS, JS .</p>
+              <button><a href="https://meyogeshkumar.github.io/checklogin/">View Project</a></button>
+            </div>
+            <div class="col-12 col-sm-3 projectitem" data-aos="fade-down" data-aos-delay="500" data-aos-easing="linear">
+              <img src="image/csvfile.jpg" alt="">
+              <h4>JS to CSV </h4>
+              <p>It is a user detalis download to CSV file . html table format using java script to convert CSV file </p>
+              <button><a href="https://meyogeshkumar.github.io/js-to-csv-file-/">View Project</a></button>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Contactus p-3" >
+      <div class="container mb-5 mt-0 mt-lg-5 contactbox" id="contactus" >
+        <h2 class="text-center pt-3 pb-2">Contact<span>us</span></h2>
+        <form action="" class="mb-3" >
+          <div class="mt-3 mb-3">
+            <h4 for="name" class="ms-1">Name</h4>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mt-3 mb-3">
+            <h4 for="email" class="ms-1">Email</h4>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mt-3 mb-3">
+            <h4 for="message" class="ms-1">Message</h4>
+            <textarea name="message" class="form-control" rows="3" id="message" placeholder="Enter message" required></textarea>
+          </div>
+          <button type="submit" class="btn" onclick="sendmail(event)">Send me</button>
+        </form>
+       
+      </div>
+    </div>
+    
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "CXi0MTrBWz1WPU0Fm",
+      });
+   })();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+    <script src="script.js"></script>
+</html>
