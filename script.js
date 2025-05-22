@@ -7,7 +7,7 @@ var typed = new Typed("#type", {
 });
 function downloadPDF() {
   const link = document.createElement("a");
-  link.href = "resume/Yogeshkumar resume.pdf";
+  link.href = "resume/yogeshkumar resume.pdf";
   link.download = "Yogeshkumar.pdf";
   document.body.appendChild(link);
   console.log(document.body.appendChild(link));
